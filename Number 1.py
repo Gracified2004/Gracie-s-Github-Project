@@ -1,0 +1,4 @@
+begin, end = 1, 100
+for num in range(begin, end + 1):
+    if num % 3 == 0:
+        print (num, end =  " ")
